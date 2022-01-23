@@ -21,7 +21,7 @@ app.use(session({
 }));
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/webdev-summer2-2018');
+mongoose.connect('mongodb://localhost/quizapp');
 
 const userService = require('./services/user.service.server'); //(app);
 userService(app);
